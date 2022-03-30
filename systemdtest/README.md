@@ -15,6 +15,15 @@ Build
 
     $ ./_build/default/rel/myrel/bin/myrel start
     $ ./_build/default/rel/myrel/bin/myrel stop
+    
+Verify complete path as in .service file
+----------------------------------------
+
+```
+root@sharessc:~/data7/systemdtest# /root/data7/systemdtest/systemdtest/_build/default/rel/myrel/bin/myrel start
+root@sharessc:~/data7/systemdtest# /root/data7/systemdtest/systemdtest/_build/default/rel/myrel/bin/myrel stop
+ok
+```
 
 
 Install under systemd
