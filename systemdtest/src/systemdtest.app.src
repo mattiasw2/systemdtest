@@ -1,0 +1,17 @@
+{application, systemdtest,
+ [{description, "An OTP application"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, {systemdtest_app, []}},
+  {applications,
+   [kernel
+   ,stdlib
+   ,lager
+   ,systemd
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.
