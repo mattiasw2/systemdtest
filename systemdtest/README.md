@@ -19,6 +19,8 @@ Build
 Verify complete path as in .service file
 ----------------------------------------
 
+File is in this folder
+
 ```
 root@sharessc:~/data7/systemdtest# /root/data7/systemdtest/systemdtest/_build/default/rel/myrel/bin/myrel start
 root@sharessc:~/data7/systemdtest# /root/data7/systemdtest/systemdtest/_build/default/rel/myrel/bin/myrel stop
