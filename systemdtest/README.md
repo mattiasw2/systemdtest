@@ -19,7 +19,7 @@ Build
 
 Install under systemd
 ---------------------
-
+```
 $ sudo emacs /etc/systemd/system/systemdtest.service
 
 $ systemctl daemon-reload
@@ -28,8 +28,9 @@ $ systemctl start systemdtest
 Job for systemdtest.service failed because the service did not take the steps required by its unit configuration.
 See "systemctl status systemdtest.service" and "journalctl -xe" for details.
 $ journalctl -xe
+```
 
-
+```
 -- The unit UNIT has successfully entered the 'dead' state.
 Mar 30 09:57:34 sharessc systemd[1]: systemdtest.service: Failed with result 'protocol'.
 -- Subject: Unit failed
@@ -41,3 +42,4 @@ Mar 30 09:57:34 sharessc systemd[1]: Failed to start My Awesome App.
 -- Subject: A start job for unit systemdtest.service has failed
 -- Defined-By: systemd
 -- Support: http://www.ubuntu.com/support
+```
