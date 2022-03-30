@@ -19,7 +19,8 @@ Build
 Verify complete path as in .service file
 ----------------------------------------
 
-[File is in this folder](../systemdtest.service)
+[File is in this folder](../systemdtest.service). 
+The rows I changed is commented the workgroup and updated the paths
 
 ```
 root@sharessc:~/data7/systemdtest# /root/data7/systemdtest/systemdtest/_build/default/rel/myrel/bin/myrel start
